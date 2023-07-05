@@ -47,10 +47,30 @@ hr{
 .box2{
     width: 300px;
     margin: auto;
-    box-shadow: 5px 3px 8px tomato;
+    box-shadow: 5px 5px 8px rgb(146, 144, 144);
 }
 .box2 a{
     display: block;
     text-align: center;
     margin-top: 10px;
+}
+
+.section3{
+    background-image: url(/images/cover.jpg);
+    min-height: 300px;
+    margin: 10px 20px;
+    /* background-repeat: no-repeat; */
+    background-size:contain;
+    opacity: 0.8;
+    position: relative;
+}
+.section3 p{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
 }
