@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.blog{
+    border: 1px solid rgba(128, 128, 128, 0.662);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px;
+    text-align: justify;
+}
+.blog h2{
+    text-align: center;
+    
+}
+hr{
+    width: 50%;
+    transform: translate(50%, 50%);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(208, 208, 210);
+    height: 1px;
+    border-bottom: 0px;
+    border-top: 0px;
+    
+}
+.smallUnit{
+    font-weight: bolder;
+}
+.blog a{
+    text-decoration: none;
+    color: rgb(255, 254, 253);
+    background-color: rgb(83, 117, 158);
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.blog a:hover{
+    background-color: rgba(0, 128, 0, 0.745);
+    transition: 0.3s;
+}
